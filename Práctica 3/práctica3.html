@@ -1,0 +1,263 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Práctica 3</title> 
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head> 
+<body> 
+  <div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Sarah K. Leith.</h1> 
+    <p align="center">Práctica 3.</p>
+  </div> 
+
+<hr>
+
+<div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Prueba de formularios.</h1> 
+    <p align="center">control select - formulario en una línea - formulario horizontal - control y grupos de controles HTML deshabilitados.</p>
+  </div> 
+
+ <hr>
+
+ <div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Form: control select.</h1> 
+  </div> 
+
+  <div class="container">
+
+    <form role="form">
+       <label for="control1">
+        Seleccione un elemento:</label> 
+         <select class="form-control" id="control1"> 
+            <option>Opción 1</option> 
+            <option>Opción 2</option>
+            <option>Opción 3</option> 
+            <option>Opción 4</option> 
+            <option>Opción 5</option> 
+          </select> 
+       <label for="control2">
+       Seleccione varios elementos:</label> 
+         <select multiple class="form-control" id="control2"> 
+            <option>Opción 1</option> 
+            <option>Opción 2</option>
+            <option>Opción 3</option> 
+            <option>Opción 4</option> 
+            <option>Opción 5</option>       
+         </select>      
+        <button type="submit" class="btn btn-default">Enviar</button> 
+    </form>
+  </div>
+
+ <hr>
+
+ <div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Form: formulario en una línea.</h1> 
+  </div> 
+
+ <div class="container">
+
+  <form class="form-inline" role="form">
+    <div class="form-group">
+      <label for="email">Email:</label>
+    <input type="email" class="form-control" id="mail">
+  </div>
+  <div class="form-group">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"> Aceptar términos
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-default">Entrar</button>
+  </form>
+</div>
+
+<hr>
+
+<div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Form: formulario horizontal.</h1> 
+  </div> 
+
+<div class="container">
+
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label for="usuario" class="col-sm-3 control-label">Ingrese su nombre de usuario:</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="usuario">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="clave" class="col-sm-3 control-label">Ingrese contraseña:</label>
+      <div class="col-sm-9">
+        <input type="password" class="form-control" id="clave">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-3 col-sm-9">
+        <button type="submit" class="btn btn-default">Entrar</button>
+      </div> 
+    </div>
+  </form>
+  </div> 
+
+  <hr>
+
+<div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Form: control y grupos de controles HTML deshabilitados.</h1> 
+  </div> 
+
+  <div class="container">
+
+  <form role="form">
+    <fieldset disabled> 
+      <div class="form-group">
+        <label for="usuario">Ingrese su nombre de usuario:</label>
+        <input type="text" class="form-control" id="usuario">
+      </div>
+      <div class="form-group">
+        <label for="clave">Ingrese su contraseña:</label>
+        <input type="password" class="form-control" id="clave">
+      </div>
+     </fieldset>
+     <div class="checkbox">
+       <label>
+         <input type="checkbox" value="" disabled>
+          Acepta términos y condiciones
+         </label>
+     </div>
+     <div class="form-group">
+       <button type="submit" class="btn btn-default">Entrar</button>
+     </div>
+     
+  </form>
+  </div>
+
+<hr>
+
+<div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Prueba de botones.</h1> 
+    <p align="center">estilos - tamaño - desactivo - grupo de botones, barra de herramientas y tamaños. </p>
+</div>
+
+ <hr>
+
+<div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Button: estilos.</h1> 
+  </div>
+
+  <div class="container">
+
+    <form role="form">
+      <div class="form-group">
+        <button type="submit" class="btn btn-default">
+btn-default: Botón estándar o por defecto.</button>       
+      </div> 
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">
+btn-primary: Es un botón que se destaca entre un conjunto de botones.</button>       
+      </div> 
+      <div class="form-group">
+        <button type="submit" class="btn btn-success">
+btn-success: Se utiliza para indicar una acción exitosa.</button>       
+      </div> 
+      <div class="form-group">
+        <button type="submit" class="btn btn-info">
+btn-info: Es un botón para información.</button>       
+      </div> 
+      <div class="form-group">
+        <button type="submit" class="btn btn-warning">
+btn-warning: Es un botón que nos informa que debemos tener 
+cuidado con la acción que tiene asociado el botón.</button>       
+      </div> 
+      <div class="form-group">
+        <button type="submit" class="btn btn-danger">
+btn-danger: Indica que la acción que tiene asociado el botón 
+es peligrosa.</button>       
+      </div> 
+      <div class="form-group">
+        <button type="submit" class="btn btn-link">
+btn-link: Convierte al botón como un hipervínculo, haciendo
+ que disminuya su importancia.</button>       
+      </div> 
+    </form>
+  </div> 
+
+  <hr>
+
+<div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Button: tamaño.</h1> 
+  </div>
+
+<div class="container">
+
+    <form role="form">
+      <div class="form-group">
+       <button type="submit" class="btn btn-primary btn-xs">
+         btn-xs: Tamaño extra pequeño</button>       
+      </div> 
+      <div class="form-group">
+       <button type="submit" class="btn btn-primary btn-sm">
+         btn-sm: Tamaño pequeño</button>       
+      </div> 
+      <div class="form-group">
+       <button type="submit" class="btn btn-primary btn-lg">
+         btn-lg: Tamaño grande</button>       
+      </div> 
+      <div class="form-group">
+       <button type="submit" class="btn btn-primary btn-block">
+         btn-block: Botón que se expande en ancho según su contenedor</button>       
+      </div> 
+    </form>
+  </div>
+
+  <hr>
+
+<div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Button: desactivo.</h1> 
+  </div>
+
+  <div class="container">
+
+    <form role="form">
+      <div class="form-group">
+       <button type="submit" class="btn btn-primary btn-lg">
+         Botón activo</button>       
+      </div> 
+      <div class="form-group">
+       <button type="submit" class="btn btn-primary btn-lg" disabled="disabled">
+         Botón desactivo</button>       
+      </div>
+    </form>
+</div>
+
+<hr>
+
+<div class="container" style="background-color: #F4ECF7">
+    <h1 align="center">Button: grupo de botones, barra de herramientas y tamaños.</h1> 
+  </div>
+
+<div class="container">
+    
+    <div class="btn-group">
+      <button type="button" class="btn btn-default">1</button>
+      <button type="button" class="btn btn-default">2</button>
+      <button type="button" class="btn btn-default">3</button>
+    </div>
+    <hr>
+    <div class="btn-toolbar" role="toolbar">
+      <div class="btn-group">
+        <button type="button" class="btn btn-default">uno</button>
+        <button type="button" class="btn btn-default">dos</button>
+        <button type="button" class="btn btn-default">tres</button>
+      </div> 
+      <div class="btn-group">
+        <button type="button" class="btn btn-default">one</button>
+        <button type="button" class="btn btn-default">two</button>
+        <button type="button" class="btn btn-default">three</button>
+      </div>
+     </div>
+  </div>
+</body> 
+</html> 
